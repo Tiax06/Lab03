@@ -25,7 +25,6 @@ class DepositoStrumenti:
                     anno_acquisto = line[3]
                     valore = line[4]
 
-                    dizionario[codice] = [tipo, marca, anno_acquisto, valore]
 
         except FileNotFoundError:
             print("File non trovato")

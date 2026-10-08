@@ -7,4 +7,4 @@ class Strumento:
         self.valor = float(valore)
 
         def __str__(self):
-            return f"[{self.id_strumento}] {self.tipo} {self.marca} - €{self.valore}"
+            return f"{self.id}: {self.tipo}, {self.marca}, {self.valore}"

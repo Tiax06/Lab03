@@ -13,7 +13,7 @@ def menu():
     return input("Scegli un'opzione >> ")
 
 def main():
-    deposito = DepositoStrumenti("Deposito Strumenti Civico", "Alessandro Visconti")
+    deposito = DepositoStrumenti("Deposito Strumenti Civico", "Alessandro Viscont")
 
     while True:
         scelta = menu()
