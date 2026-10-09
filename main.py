@@ -20,9 +20,9 @@ def main():
         scelta = menu()
 
         if scelta == "1":
-            nuovo_responsabile = input("Inserisci il nuovo responsabile: ")
+            nuovo_resp = input("Inserisci il nuovo responsabile: ")
             # TODO: Aggiorna responsabile nel sistema
-            deposito.responsabile = nuovo_responsabile
+            deposito.responsabile = nuovo_resp
 
         elif scelta == "2":
             while True:
